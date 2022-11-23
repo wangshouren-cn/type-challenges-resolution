@@ -1,0 +1,1 @@
+type MinusOne<T extends number, A extends any[] = []> = A['length'] extends T ? Pop<A>['length'] : MinusOne<T, [...A, 0]>
