@@ -47,3 +47,5 @@ type cases = [
   Expect<Equal<InorderTraversal<typeof tree3>, [2, 1]>>,
   Expect<Equal<InorderTraversal<typeof tree4>, [1, 2]>>,
 ]
+
+type a2 = InorderTraversal<typeof tree1>
